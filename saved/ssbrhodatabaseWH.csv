@@ -1,0 +1,556 @@
+scenario,change.year,ramp,cmult,mmult,mselxlab,imult,ssbrho
+Base Case,2018,0,1,1,All Ages,1,0.243526049
+Sudden Cmults,2000,0,1.5,1,All Ages,1,0.250101316
+Sudden Cmults,2000,0,2,1,All Ages,1,0.13805476
+Sudden Cmults,2000,0,2.5,1,All Ages,1,0.022798412
+Sudden Cmults,2000,0,3,1,All Ages,1,-0.071035431
+Sudden Cmults,2000,0,3.5,1,All Ages,1,-0.142404992
+Sudden Cmults,2000,0,4,1,All Ages,1,-0.197405894
+Sudden Cmults,2000,0,4.5,1,All Ages,1,-0.241662371
+Sudden Cmults,2000,0,5,1,All Ages,1,-0.275934983
+Sudden Cmults,2005,0,1.5,1,All Ages,1,0.247178089
+Sudden Cmults,2005,0,2,1,All Ages,1,0.065596991
+Sudden Cmults,2005,0,2.5,1,All Ages,1,-0.097666029
+Sudden Cmults,2005,0,3,1,All Ages,1,-0.213784658
+Sudden Cmults,2005,0,3.5,1,All Ages,1,-0.296146389
+Sudden Cmults,2005,0,4,1,All Ages,1,-0.35651515
+Sudden Cmults,2005,0,4.5,1,All Ages,1,-0.402665358
+Sudden Cmults,2005,0,5,1,All Ages,1,-0.439052059
+Sudden Cmults,2010,0,1.5,1,All Ages,1,0.265832328
+Sudden Cmults,2010,0,2,1,All Ages,1,0.094263347
+Sudden Cmults,2010,0,2.5,1,All Ages,1,-0.097456697
+Sudden Cmults,2010,0,3,1,All Ages,1,-0.238963284
+Sudden Cmults,2010,0,3.5,1,All Ages,1,-0.337900527
+Sudden Cmults,2010,0,4,1,All Ages,1,-0.408466413
+Sudden Cmults,2010,0,4.5,1,All Ages,1,-0.460527046
+Sudden Cmults,2010,0,5,1,All Ages,1,-0.50011859
+Sudden Cmults,2015,0,1.5,1,All Ages,1,0.242890004
+Sudden Cmults,2015,0,2,1,All Ages,1,0.223942924
+Sudden Cmults,2015,0,2.5,1,All Ages,1,0.18194134
+Sudden Cmults,2015,0,3,1,All Ages,1,0.119466541
+Sudden Cmults,2015,0,3.5,1,All Ages,1,0.045343858
+Sudden Cmults,2015,0,4,1,All Ages,1,-0.031140281
+Sudden Cmults,2015,0,4.5,1,All Ages,1,-0.10386847
+Sudden Cmults,2015,0,5,1,All Ages,1,-0.169991256
+Sudden Cmults,2000,0,2.6,1,All Ages,1,0.002031043
+Sudden Cmults,2000,0,2.7,1,All Ages,1,-0.017715684
+Sudden Cmults,2000,0,2.8,1,All Ages,1,-0.036455977
+Sudden Cmults,2000,0,2.9,1,All Ages,1,-0.054217395
+Sudden Cmults,2005,0,2.1,1,All Ages,1,0.028997061
+Sudden Cmults,2005,0,2.2,1,All Ages,1,-0.005749937
+Sudden Cmults,2005,0,2.3,1,All Ages,1,-0.038458043
+Sudden Cmults,2005,0,2.4,1,All Ages,1,-0.06908266
+Sudden Cmults,2010,0,2.1,1,All Ages,1,0.052965121
+Sudden Cmults,2010,0,2.2,1,All Ages,1,0.012639401
+Sudden Cmults,2010,0,2.3,1,All Ages,1,-0.026084014
+Sudden Cmults,2010,0,2.4,1,All Ages,1,-0.062841133
+Sudden Cmults,2015,0,3.6,1,All Ages,1,0.02998625
+Sudden Cmults,2015,0,3.7,1,All Ages,1,0.014607406
+Sudden Cmults,2015,0,3.8,1,All Ages,1,-0.000738192
+Sudden Cmults,2015,0,3.9,1,All Ages,1,-0.016001561
+Ramp4 Cmults,2000,4,1.5,1,All Ages,1,0.254649446
+Ramp4 Cmults,2000,4,2,1,All Ages,1,0.166766975
+Ramp4 Cmults,2000,4,2.5,1,All Ages,1,0.06689283
+Ramp4 Cmults,2000,4,3,1,All Ages,1,-0.015159768
+Ramp4 Cmults,2000,4,3.5,1,All Ages,1,-0.083429416
+Ramp4 Cmults,2000,4,4,1,All Ages,1,-0.134948468
+Ramp4 Cmults,2000,4,4.5,1,All Ages,1,-0.173096503
+Ramp4 Cmults,2000,4,5,1,All Ages,1,-0.176014648
+Ramp4 Cmults,2005,4,1.5,1,All Ages,1,0.249112552
+Ramp4 Cmults,2005,4,2,1,All Ages,1,0.096814756
+Ramp4 Cmults,2005,4,2.5,1,All Ages,1,-0.048105965
+Ramp4 Cmults,2005,4,3,1,All Ages,1,-0.155531883
+Ramp4 Cmults,2005,4,3.5,1,All Ages,1,-0.234378977
+Ramp4 Cmults,2005,4,4,1,All Ages,1,-0.294202213
+Ramp4 Cmults,2005,4,4.5,1,All Ages,1,-0.34023952
+Ramp4 Cmults,2005,4,5,1,All Ages,1,-0.376504022
+Ramp4 Cmults,2010,4,1.5,1,All Ages,1,0.257533557
+Ramp4 Cmults,2010,4,2,1,All Ages,1,0.067102546
+Ramp4 Cmults,2010,4,2.5,1,All Ages,1,-0.116342314
+Ramp4 Cmults,2010,4,3,1,All Ages,1,-0.245436886
+Ramp4 Cmults,2010,4,3.5,1,All Ages,1,-0.33488241
+Ramp4 Cmults,2010,4,4,1,All Ages,1,-0.399038672
+Ramp4 Cmults,2010,4,4.5,1,All Ages,1,-0.446755627
+Ramp4 Cmults,2010,4,5,1,All Ages,1,-0.483625331
+Ramp4 Cmults,2015,4,1.5,1,All Ages,1,0.265826242
+Ramp4 Cmults,2015,4,2,1,All Ages,1,0.20397544
+Ramp4 Cmults,2015,4,2.5,1,All Ages,1,0.068284813
+Ramp4 Cmults,2015,4,3,1,All Ages,1,-0.077370466
+Ramp4 Cmults,2015,4,3.5,1,All Ages,1,-0.201197248
+Ramp4 Cmults,2015,4,4,1,All Ages,1,-0.299166263
+Ramp4 Cmults,2015,4,4.5,1,All Ages,1,-0.375574697
+Ramp4 Cmults,2015,4,5,1,All Ages,1,-0.435552418
+Ramp4 Cmults,2000,4,2.6,1,All Ages,1,0.048830127
+Ramp4 Cmults,2000,4,2.7,1,All Ages,1,0.03158557
+Ramp4 Cmults,2000,4,2.8,1,All Ages,1,0.015181347
+Ramp4 Cmults,2000,4,2.9,1,All Ages,1,-0.000371492
+Ramp4 Cmults,2015,4,2.6,1,All Ages,1,0.038321568
+Ramp4 Cmults,2015,4,2.7,1,All Ages,1,0.008507758
+Ramp4 Cmults,2015,4,2.8,1,All Ages,1,-0.02085428
+Ramp4 Cmults,2015,4,2.9,1,All Ages,1,-0.049535152
+Ramp4 Cmults,2005,4,2.1,1,All Ages,1,0.065007454
+Ramp4 Cmults,2005,4,2.2,1,All Ages,1,0.034446194
+Ramp4 Cmults,2005,4,2.3,1,All Ages,1,0.005353923
+Ramp4 Cmults,2005,4,2.4,1,All Ages,1,-0.022169914
+Ramp4 Cmults,2010,4,2.1,1,All Ages,1,0.026195199
+Ramp4 Cmults,2010,4,2.2,1,All Ages,1,-0.012861939
+Ramp4 Cmults,2010,4,2.3,1,All Ages,1,-0.049710386
+Ramp4 Cmults,2010,4,2.4,1,All Ages,1,-0.084206405
+Ramp9 Cmults,2000,9,1.5,1,All Ages,1,0.260096676
+Ramp9 Cmults,2000,9,2,1,All Ages,1,0.202546881
+Ramp9 Cmults,2000,9,2.5,1,All Ages,1,0.131177606
+Ramp9 Cmults,2000,9,3,1,All Ages,1,0.065081611
+Ramp9 Cmults,2000,9,3.5,1,All Ages,1,0.013999236
+Ramp9 Cmults,2000,9,4,1,All Ages,1,-0.02185328
+Ramp9 Cmults,2000,9,4.5,1,All Ages,1,-0.011989582
+Ramp9 Cmults,2000,9,5,1,All Ages,1,-0.068571365
+Ramp9 Cmults,2005,9,1.5,1,All Ages,1,0.25359709
+Ramp9 Cmults,2005,9,2,1,All Ages,1,0.136319128
+Ramp9 Cmults,2005,9,2.5,1,All Ages,1,0.01626259
+Ramp9 Cmults,2005,9,3,1,All Ages,1,-0.080669832
+Ramp9 Cmults,2005,9,3.5,1,All Ages,1,-0.154215762
+Ramp9 Cmults,2005,9,4,1,All Ages,1,-0.210076937
+Ramp9 Cmults,2005,9,4.5,1,All Ages,1,-0.255996079
+Ramp9 Cmults,2005,9,5,1,All Ages,1,-0.291935139
+Ramp9 Cmults,2010,9,1.5,1,All Ages,1,0.252957813
+Ramp9 Cmults,2010,9,2,1,All Ages,1,0.080521033
+Ramp9 Cmults,2010,9,2.5,1,All Ages,1,-0.083558214
+Ramp9 Cmults,2010,9,3,1,All Ages,1,-0.201783006
+Ramp9 Cmults,2010,9,3.5,1,All Ages,1,-0.285610633
+Ramp9 Cmults,2010,9,4,1,All Ages,1,-0.346934363
+Ramp9 Cmults,2010,9,4.5,1,All Ages,1,-0.393803541
+Ramp9 Cmults,2010,9,5,1,All Ages,1,-0.4306413
+Ramp9 Cmults,2015,9,1.5,1,All Ages,1,0.271153262
+Ramp9 Cmults,2015,9,2,1,All Ages,1,0.136373029
+Ramp9 Cmults,2015,9,2.5,1,All Ages,1,-0.048213253
+Ramp9 Cmults,2015,9,3,1,All Ages,1,-0.197632176
+Ramp9 Cmults,2015,9,3.5,1,All Ages,1,-0.306310188
+Ramp9 Cmults,2015,9,4,1,All Ages,1,-0.38506676
+Ramp9 Cmults,2015,9,4.5,1,All Ages,1,-0.443453208
+Ramp9 Cmults,2015,9,5,1,All Ages,1,-0.487938051
+Ramp9 Cmults,2000,9,3.6,1,All Ages,1,0.005441139
+Ramp9 Cmults,2000,9,3.7,1,All Ages,1,-0.002507874
+Ramp9 Cmults,2000,9,3.8,1,All Ages,1,-0.009793393
+Ramp9 Cmults,2000,9,3.9,1,All Ages,1,-0.016315766
+Ramp9 Cmults,2005,9,2.6,1,All Ages,1,-0.00524844
+Ramp9 Cmults,2005,9,2.7,1,All Ages,1,-0.025668285
+Ramp9 Cmults,2005,9,2.8,1,All Ages,1,-0.04501951
+Ramp9 Cmults,2005,9,2.9,1,All Ages,1,-0.063338508
+Ramp9 Cmults,2010,9,2.1,1,All Ages,1,0.044142203
+Ramp9 Cmults,2010,9,2.2,1,All Ages,1,0.009342529
+Ramp9 Cmults,2010,9,2.3,1,All Ages,1,-0.023598378
+Ramp9 Cmults,2010,9,2.4,1,All Ages,1,-0.054567663
+Ramp9 Cmults,2015,9,2.1,1,All Ages,1,0.098857026
+Ramp9 Cmults,2015,9,2.2,1,All Ages,1,0.060912311
+Ramp9 Cmults,2015,9,2.3,1,All Ages,1,0.023387994
+Ramp9 Cmults,2015,9,2.4,1,All Ages,1,-0.013118457
+Sudden Mmults,2000,0,1,1.5,All Ages,1,0.067740023
+Sudden Mmults,2000,0,1,2,All Ages,1,-0.100615114
+Sudden Mmults,2000,0,1,2.5,All Ages,1,-0.251611977
+Sudden Mmults,2000,0,1,3,All Ages,1,-0.378318259
+Sudden Mmults,2000,0,1,3.5,All Ages,1,-0.469162281
+Sudden Mmults,2000,0,1,4,All Ages,1,-0.534219877
+Sudden Mmults,2000,0,1,4.5,All Ages,1,-0.583459198
+Sudden Mmults,2000,0,1,5,All Ages,1,-0.621880353
+Sudden Mmults,2005,0,1,1.5,All Ages,1,0.048827265
+Sudden Mmults,2005,0,1,2,All Ages,1,-0.149212194
+Sudden Mmults,2005,0,1,2.5,All Ages,1,-0.324283722
+Sudden Mmults,2005,0,1,3,All Ages,1,-0.45669747
+Sudden Mmults,2005,0,1,3.5,All Ages,1,-0.548662872
+Sudden Mmults,2005,0,1,4,All Ages,1,-0.612435387
+Sudden Mmults,2005,0,1,4.5,All Ages,1,-0.656703065
+Sudden Mmults,2005,0,1,5,All Ages,1,-0.689591633
+Sudden Mmults,2010,0,1,1.5,All Ages,1,0.064961134
+Sudden Mmults,2010,0,1,2,All Ages,1,-0.10730977
+Sudden Mmults,2010,0,1,2.5,All Ages,1,-0.27411288
+Sudden Mmults,2010,0,1,3,All Ages,1,-0.42248207
+Sudden Mmults,2010,0,1,3.5,All Ages,1,-0.540870826
+Sudden Mmults,2010,0,1,4,All Ages,1,-0.627266864
+Sudden Mmults,2010,0,1,4.5,All Ages,1,-0.687870282
+Sudden Mmults,2010,0,1,5,All Ages,1,-0.730251803
+Sudden Mmults,2015,0,1,1.5,All Ages,1,0.161533832
+Sudden Mmults,2015,0,1,2,All Ages,1,0.086418264
+Sudden Mmults,2015,0,1,2.5,All Ages,1,0.015659388
+Sudden Mmults,2015,0,1,3,All Ages,1,-0.052494664
+Sudden Mmults,2015,0,1,3.5,All Ages,1,-0.119269002
+Sudden Mmults,2015,0,1,4,All Ages,1,-0.185399648
+Sudden Mmults,2015,0,1,4.5,All Ages,1,-0.251051884
+Sudden Mmults,2015,0,1,5,All Ages,1,-0.315634659
+Sudden Mmults,2000,0,1,1.6,All Ages,1,0.033184584
+Sudden Mmults,2000,0,1,1.7,All Ages,1,-0.000890217
+Sudden Mmults,2000,0,1,1.8,All Ages,1,-0.034517818
+Sudden Mmults,2000,0,1,1.9,All Ages,1,-0.067783582
+Sudden Mmults,2005,0,1,1.6,All Ages,1,0.008972259
+Sudden Mmults,2005,0,1,1.7,All Ages,1,-0.030999207
+Sudden Mmults,2005,0,1,1.8,All Ages,1,-0.07086435
+Sudden Mmults,2005,0,1,1.9,All Ages,1,-0.110361854
+Sudden Mmults,2010,0,1,1.6,All Ages,1,0.030296797
+Sudden Mmults,2010,0,1,1.7,All Ages,1,-0.004247748
+Sudden Mmults,2010,0,1,1.8,All Ages,1,-0.03870168
+Sudden Mmults,2010,0,1,1.9,All Ages,1,-0.073064905
+Sudden Mmults,2015,0,1,2.6,All Ages,1,0.001866134
+Sudden Mmults,2015,0,1,2.7,All Ages,1,-0.01183571
+Sudden Mmults,2015,0,1,2.8,All Ages,1,-0.025456624
+Sudden Mmults,2015,0,1,2.9,All Ages,1,-0.039006757
+Ramp4 Mmults,2000,4,1,1.5,All Ages,1,0.073881624
+Ramp4 Mmults,2000,4,1,2,All Ages,1,-0.080617478
+Ramp4 Mmults,2000,4,1,2.5,All Ages,1,-0.22081875
+Ramp4 Mmults,2000,4,1,3,All Ages,1,-0.345857874
+Ramp4 Mmults,2000,4,1,3.5,All Ages,1,-0.436527507
+Ramp4 Mmults,2000,4,1,4,All Ages,1,-0.502948947
+Ramp4 Mmults,2000,4,1,4.5,All Ages,1,-0.553909407
+Ramp4 Mmults,2000,4,1,5,All Ages,1,-0.594168973
+Ramp4 Mmults,2005,4,1,1.5,All Ages,1,0.055535963
+Ramp4 Mmults,2005,4,1,2,All Ages,1,-0.133372251
+Ramp4 Mmults,2005,4,1,2.5,All Ages,1,-0.300492365
+Ramp4 Mmults,2005,4,1,3,All Ages,1,-0.4284889
+Ramp4 Mmults,2005,4,1,3.5,All Ages,1,-0.521646281
+Ramp4 Mmults,2005,4,1,4,All Ages,1,-0.584680333
+Ramp4 Mmults,2005,4,1,4.5,All Ages,1,-0.630458649
+Ramp4 Mmults,2005,4,1,5,All Ages,1,-0.66547257
+Ramp4 Mmults,2010,4,1,1.5,All Ages,1,0.053624838
+Ramp4 Mmults,2010,4,1,2,All Ages,1,-0.135970155
+Ramp4 Mmults,2010,4,1,2.5,All Ages,1,-0.313835586
+Ramp4 Mmults,2010,4,1,3,All Ages,1,-0.459691396
+Ramp4 Mmults,2010,4,1,3.5,All Ages,1,-0.565650219
+Ramp4 Mmults,2010,4,1,4,All Ages,1,-0.638113147
+Ramp4 Mmults,2010,4,1,4.5,All Ages,1,-0.687571365
+Ramp4 Mmults,2010,4,1,5,All Ages,1,-0.945958217
+Ramp4 Mmults,2015,4,1,1.5,All Ages,1,0.114881824
+Ramp4 Mmults,2015,4,1,2,All Ages,1,-0.002630471
+Ramp4 Mmults,2015,4,1,2.5,All Ages,1,-0.114874996
+Ramp4 Mmults,2015,4,1,3,All Ages,1,-0.224099776
+Ramp4 Mmults,2015,4,1,3.5,All Ages,1,-0.329295399
+Ramp4 Mmults,2015,4,1,4,All Ages,1,-0.426916369
+Ramp4 Mmults,2015,4,1,4.5,All Ages,1,-0.513304146
+Ramp4 Mmults,2015,4,1,5,All Ages,1,-0.585954338
+Ramp4 Mmults,2000,4,1,1.6,All Ages,1,0.042282306
+Ramp4 Mmults,2000,4,1,1.7,All Ages,1,0.011206978
+Ramp4 Mmults,2000,4,1,1.8,All Ages,1,-0.019719671
+Ramp4 Mmults,2000,4,1,1.9,All Ages,1,-0.050363207
+Ramp4 Mmults,2005,4,1,1.6,All Ages,1,0.017365198
+Ramp4 Mmults,2005,4,1,1.7,All Ages,1,-0.020869644
+Ramp4 Mmults,2005,4,1,1.8,All Ages,1,-0.058964242
+Ramp4 Mmults,2005,4,1,1.9,All Ages,1,-0.096553332
+Ramp4 Mmults,2010,4,1,1.6,All Ages,1,0.015671027
+Ramp4 Mmults,2010,4,1,1.7,All Ages,1,-0.02235359
+Ramp4 Mmults,2010,4,1,1.8,All Ages,1,-0.060380125
+Ramp4 Mmults,2010,4,1,1.9,All Ages,1,-0.098300523
+Ramp9 Mmults,2000,9,1,1.5,All Ages,1,0.079014026
+Ramp9 Mmults,2000,9,1,2,All Ages,1,-0.063221138
+Ramp9 Mmults,2000,9,1,2.5,All Ages,1,-0.190577001
+Ramp9 Mmults,2000,9,1,3,All Ages,1,-0.311908546
+Ramp9 Mmults,2000,9,1,3.5,All Ages,1,-0.403349269
+Ramp9 Mmults,2000,9,1,4,All Ages,1,-0.470522209
+Ramp9 Mmults,2000,9,1,4.5,All Ages,1,-0.52261469
+Ramp9 Mmults,2000,9,1,5,All Ages,1,1.136461183
+Ramp9 Mmults,2005,9,1,1.5,All Ages,1,0.064589135
+Ramp9 Mmults,2005,9,1,2,All Ages,1,-0.107824395
+Ramp9 Mmults,2005,9,1,2.5,All Ages,1,-0.263022379
+Ramp9 Mmults,2005,9,1,3,All Ages,1,-0.388671144
+Ramp9 Mmults,2005,9,1,3.5,All Ages,1,-0.483145693
+Ramp9 Mmults,2005,9,1,4,All Ages,1,-0.548073205
+Ramp9 Mmults,2005,9,1,4.5,All Ages,1,-0.596525203
+Ramp9 Mmults,2005,9,1,5,All Ages,1,-0.634070135
+Ramp9 Mmults,2010,9,1,1.5,All Ages,1,0.054196642
+Ramp9 Mmults,2010,9,1,2,All Ages,1,-0.136711484
+Ramp9 Mmults,2010,9,1,2.5,All Ages,1,-0.311598339
+Ramp9 Mmults,2010,9,1,3,All Ages,1,-0.449937982
+Ramp9 Mmults,2010,9,1,3.5,All Ages,1,-0.547995686
+Ramp9 Mmults,2010,9,1,4,All Ages,1,-0.616207143
+Ramp9 Mmults,2010,9,1,4.5,All Ages,1,-0.662871912
+Ramp9 Mmults,2010,9,1,5,All Ages,1,-0.696765792
+Ramp9 Mmults,2015,9,1,1.5,All Ages,1,0.084769372
+Ramp9 Mmults,2015,9,1,2,All Ages,1,-0.067896784
+Ramp9 Mmults,2015,9,1,2.5,All Ages,1,-0.216953379
+Ramp9 Mmults,2015,9,1,3,All Ages,1,-0.356073191
+Ramp9 Mmults,2015,9,1,3.5,All Ages,1,-0.47659546
+Ramp9 Mmults,2015,9,1,4,All Ages,1,-0.572737495
+Ramp9 Mmults,2015,9,1,4.5,All Ages,1,-0.645270483
+Ramp9 Mmults,2015,9,1,5,All Ages,1,-0.698707245
+Ramp9 Mmults,2000,9,1,1.6,All Ages,1,0.05004694
+Ramp9 Mmults,2000,9,1,1.7,All Ages,1,0.021300116
+Ramp9 Mmults,2000,9,1,1.8,All Ages,1,-0.007365206
+Ramp9 Mmults,2000,9,1,1.9,All Ages,1,-0.035626382
+Ramp9 Mmults,2005,9,1,1.6,All Ages,1,0.029321914
+Ramp9 Mmults,2005,9,1,1.7,All Ages,1,-0.005623246
+Ramp9 Mmults,2005,9,1,1.8,All Ages,1,-0.040051558
+Ramp9 Mmults,2005,9,1,1.9,All Ages,1,-0.074158009
+Ramp9 Mmults,2010,9,1,1.6,All Ages,1,0.015962329
+Ramp9 Mmults,2010,9,1,1.7,All Ages,1,-0.022393438
+Ramp9 Mmults,2010,9,1,1.8,All Ages,1,-0.060743496
+Ramp9 Mmults,2010,9,1,1.9,All Ages,1,-0.098917826
+Ramp9 Mmults,2015,9,1,1.6,All Ages,1,0.053976081
+Ramp9 Mmults,2015,9,1,1.7,All Ages,1,0.023336965
+Ramp9 Mmults,2015,9,1,1.8,All Ages,1,-0.007179721
+Ramp9 Mmults,2015,9,1,1.9,All Ages,1,-0.037590441
+Old Sudden Mmults,2000,0,1,1.5,Old Ages,1,0.119122972
+Old Sudden Mmults,2000,0,1,2,Old Ages,1,0.041704576
+Old Sudden Mmults,2000,0,1,2.5,Old Ages,1,-0.015443275
+Old Sudden Mmults,2000,0,1,3,Old Ages,1,-0.060277164
+Old Sudden Mmults,2000,0,1,3.5,Old Ages,1,-0.096215653
+Old Sudden Mmults,2000,0,1,4,Old Ages,1,-0.125212395
+Old Sudden Mmults,2000,0,1,4.5,Old Ages,1,-0.148509314
+Old Sudden Mmults,2000,0,1,5,Old Ages,1,-0.166816668
+Old Sudden Mmults,2005,0,1,1.5,Old Ages,1,0.121387111
+Old Sudden Mmults,2005,0,1,2,Old Ages,1,0.039591545
+Old Sudden Mmults,2005,0,1,2.5,Old Ages,1,-0.023510411
+Old Sudden Mmults,2005,0,1,3,Old Ages,1,-0.074489445
+Old Sudden Mmults,2005,0,1,3.5,Old Ages,1,-0.116175361
+Old Sudden Mmults,2005,0,1,4,Old Ages,1,-0.150394346
+Old Sudden Mmults,2005,0,1,4.5,Old Ages,1,-0.1785832
+Old Sudden Mmults,2005,0,1,5,Old Ages,1,-0.201923865
+Old Sudden Mmults,2010,0,1,1.5,Old Ages,1,0.127565519
+Old Sudden Mmults,2010,0,1,2,Old Ages,1,0.044804114
+Old Sudden Mmults,2010,0,1,2.5,Old Ages,1,-0.02092012
+Old Sudden Mmults,2010,0,1,3,Old Ages,1,-0.075765546
+Old Sudden Mmults,2010,0,1,3.5,Old Ages,1,-0.122227359
+Old Sudden Mmults,2010,0,1,4,Old Ages,1,-0.16157197
+Old Sudden Mmults,2010,0,1,4.5,Old Ages,1,-0.194755572
+Old Sudden Mmults,2010,0,1,5,Old Ages,1,-0.222683831
+Old Sudden Mmults,2015,0,1,1.5,Old Ages,1,0.186059234
+Old Sudden Mmults,2015,0,1,2,Old Ages,1,0.137432727
+Old Sudden Mmults,2015,0,1,2.5,Old Ages,1,0.095624004
+Old Sudden Mmults,2015,0,1,3,Old Ages,1,0.059243888
+Old Sudden Mmults,2015,0,1,3.5,Old Ages,1,0.027308406
+Old Sudden Mmults,2015,0,1,4,Old Ages,1,-0.000900112
+Old Sudden Mmults,2015,0,1,4.5,Old Ages,1,-0.025922344
+Old Sudden Mmults,2015,0,1,5,Old Ages,1,-0.048181489
+Old Sudden Mmults,2000,0,1,2.1,Old Ages,1,0.029026096
+Old Sudden Mmults,2000,0,1,2.2,Old Ages,1,0.017032187
+Old Sudden Mmults,2000,0,1,2.3,Old Ages,1,0.005657156
+Old Sudden Mmults,2000,0,1,2.4,Old Ages,1,-0.00515267
+Old Sudden Mmults,2005,0,1,2.1,Old Ages,1,0.025785957
+Old Sudden Mmults,2005,0,1,2.2,Old Ages,1,0.012622872
+Old Sudden Mmults,2005,0,1,2.3,Old Ages,1,4.76E-05
+Old Sudden Mmults,2005,0,1,2.4,Old Ages,1,-0.011984654
+Old Sudden Mmults,2010,0,1,2.1,Old Ages,1,0.03057853
+Old Sudden Mmults,2010,0,1,2.2,Old Ages,1,0.016942409
+Old Sudden Mmults,2010,0,1,2.3,Old Ages,1,0.003841934
+Old Sudden Mmults,2010,0,1,2.4,Old Ages,1,-0.008766581
+Old Ramp4 Mmults,2000,4,1,1.5,Old Ages,1,0.118812228
+Old Ramp4 Mmults,2000,4,1,2,Old Ages,1,0.043078554
+Old Ramp4 Mmults,2000,4,1,2.5,Old Ages,1,-0.011918758
+Old Ramp4 Mmults,2000,4,1,3,Old Ages,1,-0.054594153
+Old Ramp4 Mmults,2000,4,1,3.5,Old Ages,1,-0.088515011
+Old Ramp4 Mmults,2000,4,1,4,Old Ages,1,-0.115630802
+Old Ramp4 Mmults,2000,4,1,4.5,Old Ages,1,-0.137053531
+Old Ramp4 Mmults,2000,4,1,5,Old Ages,1,-0.153090664
+Old Ramp4 Mmults,2005,4,1,1.5,Old Ages,1,0.120463299
+Old Ramp4 Mmults,2005,4,1,2,Old Ages,1,0.040625588
+Old Ramp4 Mmults,2005,4,1,2.5,Old Ages,1,-0.019706242
+Old Ramp4 Mmults,2005,4,1,3,Old Ages,1,-0.067681011
+Old Ramp4 Mmults,2005,4,1,3.5,Old Ages,1,-0.106429587
+Old Ramp4 Mmults,2005,4,1,4,Old Ages,1,-0.137906001
+Old Ramp4 Mmults,2005,4,1,4.5,Old Ages,1,-0.163543602
+Old Ramp4 Mmults,2005,4,1,5,Old Ages,1,-0.184436965
+Old Ramp4 Mmults,2010,4,1,1.5,Old Ages,1,0.123987324
+Old Ramp4 Mmults,2010,4,1,2,Old Ages,1,0.040638971
+Old Ramp4 Mmults,2010,4,1,2.5,Old Ages,1,-0.025011009
+Old Ramp4 Mmults,2010,4,1,3,Old Ages,1,-0.079157006
+Old Ramp4 Mmults,2010,4,1,3.5,Old Ages,1,-0.124263403
+Old Ramp4 Mmults,2010,4,1,4,Old Ages,1,-0.161783639
+Old Ramp4 Mmults,2010,4,1,4.5,Old Ages,1,-0.192936009
+Old Ramp4 Mmults,2010,4,1,5,Old Ages,1,-0.218834057
+Old Ramp4 Mmults,2015,4,1,1.5,Old Ages,1,0.153574439
+Old Ramp4 Mmults,2015,4,1,2,Old Ages,1,0.083759834
+Old Ramp4 Mmults,2015,4,1,2.5,Old Ages,1,0.026777382
+Old Ramp4 Mmults,2015,4,1,3,Old Ages,1,-0.021369993
+Old Ramp4 Mmults,2015,4,1,3.5,Old Ages,1,-0.062966813
+Old Ramp4 Mmults,2015,4,1,4,Old Ages,1,-0.09936811
+Old Ramp4 Mmults,2015,4,1,4.5,Old Ages,1,-0.131429
+Old Ramp4 Mmults,2015,4,1,5,Old Ages,1,-0.159750344
+Old Ramp4 Mmults,2000,4,1,2.1,Old Ages,1,0.030814395
+Old Ramp4 Mmults,2000,4,1,2.2,Old Ages,1,0.019246308
+Old Ramp4 Mmults,2000,4,1,2.3,Old Ages,1,0.008304903
+Old Ramp4 Mmults,2000,4,1,2.4,Old Ages,1,-0.002067572
+Old Ramp4 Mmults,2005,4,1,2.1,Old Ages,1,0.027333888
+Old Ramp4 Mmults,2005,4,1,2.2,Old Ages,1,0.014708912
+Old Ramp4 Mmults,2005,4,1,2.3,Old Ages,1,0.002691638
+Old Ramp4 Mmults,2005,4,1,2.4,Old Ages,1,-0.008766799
+Old Ramp4 Mmults,2010,4,1,2.1,Old Ages,1,0.026385376
+Old Ramp4 Mmults,2010,4,1,2.2,Old Ages,1,0.012741571
+Old Ramp4 Mmults,2010,4,1,2.3,Old Ages,1,-0.000344954
+Old Ramp4 Mmults,2010,4,1,2.4,Old Ages,1,-0.012917759
+Old Ramp4 Mmults,2015,4,1,2.6,Old Ages,1,0.016532337
+Old Ramp4 Mmults,2015,4,1,2.7,Old Ages,1,0.006613826
+Old Ramp4 Mmults,2015,4,1,2.8,Old Ages,1,-0.002998194
+Old Ramp4 Mmults,2015,4,1,2.9,Old Ages,1,-0.012320556
+Old Ramp9 Mmults,2000,9,1,1.5,Old Ages,1,0.1181724
+Old Ramp9 Mmults,2000,9,1,2,Old Ages,1,0.043424035
+Old Ramp9 Mmults,2000,9,1,2.5,Old Ages,1,-0.009913502
+Old Ramp9 Mmults,2000,9,1,3,Old Ages,1,-0.050534612
+Old Ramp9 Mmults,2000,9,1,3.5,Old Ages,1,-0.082022962
+Old Ramp9 Mmults,2000,9,1,4,Old Ages,1,-0.106089564
+Old Ramp9 Mmults,2000,9,1,4.5,Old Ages,1,-0.12301385
+Old Ramp9 Mmults,2000,9,1,5,Old Ages,1,-0.129121246
+Old Ramp9 Mmults,2005,9,1,1.5,Old Ages,1,0.119467402
+Old Ramp9 Mmults,2005,9,1,2,Old Ages,1,0.041456108
+Old Ramp9 Mmults,2005,9,1,2.5,Old Ages,1,-0.016354297
+Old Ramp9 Mmults,2005,9,1,3,Old Ages,1,-0.061723656
+Old Ramp9 Mmults,2005,9,1,3.5,Old Ages,1,-0.098023485
+Old Ramp9 Mmults,2005,9,1,4,Old Ages,1,-0.12724342
+Old Ramp9 Mmults,2005,9,1,4.5,Old Ages,1,-0.150709187
+Old Ramp9 Mmults,2005,9,1,5,Old Ages,1,-0.169255471
+Old Ramp9 Mmults,2010,9,1,1.5,Old Ages,1,0.121943167
+Old Ramp9 Mmults,2010,9,1,2,Old Ages,1,0.03998812
+Old Ramp9 Mmults,2010,9,1,2.5,Old Ages,1,-0.023314
+Old Ramp9 Mmults,2010,9,1,3,Old Ages,1,-0.074576977
+Old Ramp9 Mmults,2010,9,1,3.5,Old Ages,1,-0.11655446
+Old Ramp9 Mmults,2010,9,1,4,Old Ages,1,-0.150964054
+Old Ramp9 Mmults,2010,9,1,4.5,Old Ages,1,-0.17918378
+Old Ramp9 Mmults,2010,9,1,5,Old Ages,1,-0.202378846
+Old Ramp9 Mmults,2015,9,1,1.5,Old Ages,1,0.137703265
+Old Ramp9 Mmults,2015,9,1,2,Old Ages,1,0.059867158
+Old Ramp9 Mmults,2015,9,1,2.5,Old Ages,1,-0.002511824
+Old Ramp9 Mmults,2015,9,1,3,Old Ages,1,-0.054889818
+Old Ramp9 Mmults,2015,9,1,3.5,Old Ages,1,-0.099773032
+Old Ramp9 Mmults,2015,9,1,4,Old Ages,1,-0.138440744
+Old Ramp9 Mmults,2015,9,1,4.5,Old Ages,1,-0.171714296
+Old Ramp9 Mmults,2015,9,1,5,Old Ages,1,-0.200272458
+Old Ramp9 Mmults,2000,9,1,2.1,Old Ages,1,0.031451695
+Old Ramp9 Mmults,2000,9,1,2.2,Old Ages,1,0.020198002
+Old Ramp9 Mmults,2000,9,1,2.3,Old Ages,1,0.009590782
+Old Ramp9 Mmults,2000,9,1,2.4,Old Ages,1,-0.000430049
+Old Ramp9 Mmults,2005,9,1,2.1,Old Ages,1,0.028641172
+Old Ramp9 Mmults,2005,9,1,2.2,Old Ages,1,0.016511372
+Old Ramp9 Mmults,2005,9,1,2.3,Old Ages,1,0.005002606
+Old Ramp9 Mmults,2005,9,1,2.4,Old Ages,1,-0.005937651
+Old Ramp9 Mmults,2010,9,1,2.1,Old Ages,1,0.026148124
+Old Ramp9 Mmults,2010,9,1,2.2,Old Ages,1,0.012948171
+Old Ramp9 Mmults,2010,9,1,2.3,Old Ages,1,0.000333443
+Old Ramp9 Mmults,2010,9,1,2.4,Old Ages,1,-0.011741811
+Old Ramp9 Mmults,2015,9,1,2.1,Old Ages,1,0.046393664
+Old Ramp9 Mmults,2015,9,1,2.2,Old Ages,1,0.033462928
+Old Ramp9 Mmults,2015,9,1,2.3,Old Ages,1,0.021027658
+Old Ramp9 Mmults,2015,9,1,2.4,Old Ages,1,0.009047317
+Young Sudden Mmults,2000,0,1,1.5,Young Ages,1,0.230142918
+Young Sudden Mmults,2000,0,1,2,Young Ages,1,0.199618935
+Young Sudden Mmults,2000,0,1,2.5,Young Ages,1,0.134669336
+Young Sudden Mmults,2000,0,1,3,Young Ages,1,0.028815304
+Young Sudden Mmults,2000,0,1,3.5,Young Ages,1,-0.095290725
+Young Sudden Mmults,2000,0,1,4,Young Ages,1,-0.217909641
+Young Sudden Mmults,2000,0,1,4.5,Young Ages,1,-0.325175363
+Young Sudden Mmults,2000,0,1,5,Young Ages,1,-0.411867401
+Young Sudden Mmults,2005,0,1,1.5,Young Ages,1,0.214090332
+Young Sudden Mmults,2005,0,1,2,Young Ages,1,0.169120947
+Young Sudden Mmults,2005,0,1,2.5,Young Ages,1,0.103135377
+Young Sudden Mmults,2005,0,1,3,Young Ages,1,0.008995993
+Young Sudden Mmults,2005,0,1,3.5,Young Ages,1,-0.106236156
+Young Sudden Mmults,2005,0,1,4,Young Ages,1,-0.225676553
+Young Sudden Mmults,2005,0,1,4.5,Young Ages,1,-0.334665588
+Young Sudden Mmults,2005,0,1,5,Young Ages,1,-0.428412359
+Young Sudden Mmults,2010,0,1,1.5,Young Ages,1,0.212565917
+Young Sudden Mmults,2010,0,1,2,Young Ages,1,0.183043632
+Young Sudden Mmults,2010,0,1,2.5,Young Ages,1,0.154599726
+Young Sudden Mmults,2010,0,1,3,Young Ages,1,0.126962697
+Young Sudden Mmults,2010,0,1,3.5,Young Ages,1,0.097108822
+Young Sudden Mmults,2010,0,1,4,Young Ages,1,0.062694874
+Young Sudden Mmults,2010,0,1,4.5,Young Ages,1,0.022120793
+Young Sudden Mmults,2010,0,1,5,Young Ages,1,-0.024991812
+Young Sudden Mmults,2015,0,1,1.5,Young Ages,1,0.222265942
+Young Sudden Mmults,2015,0,1,2,Young Ages,1,0.202053404
+Young Sudden Mmults,2015,0,1,2.5,Young Ages,1,0.182827696
+Young Sudden Mmults,2015,0,1,3,Young Ages,1,0.164536452
+Young Sudden Mmults,2015,0,1,3.5,Young Ages,1,0.147132006
+Young Sudden Mmults,2015,0,1,4,Young Ages,1,0.130572297
+Young Sudden Mmults,2015,0,1,4.5,Young Ages,1,0.114818786
+Young Sudden Mmults,2015,0,1,5,Young Ages,1,0.100054176
+Young Sudden Mmults,2000,0,1,3.1,Young Ages,1,0.004331702
+Young Sudden Mmults,2000,0,1,3.2,Young Ages,1,-0.020685139
+Young Sudden Mmults,2000,0,1,3.3,Young Ages,1,-0.045319658
+Young Sudden Mmults,2000,0,1,3.4,Young Ages,1,-0.070265217
+Young Sudden Mmults,2000,0,1,3.5,Young Ages,1,-0.095290725
+Young Sudden Mmults,2005,0,1,3.1,Young Ages,1,-0.012651266
+Young Sudden Mmults,2005,0,1,3.2,Young Ages,1,-0.034994258
+Young Sudden Mmults,2005,0,1,3.3,Young Ages,1,-0.05793393
+Young Sudden Mmults,2005,0,1,3.4,Young Ages,1,-0.081954934
+Young Sudden Mmults,2005,0,1,3.5,Young Ages,1,-0.106236156
+Young Sudden Mmults,2010,0,1,4.6,Young Ages,1,0.0132452
+Young Sudden Mmults,2010,0,1,4.7,Young Ages,1,0.004105428
+Young Sudden Mmults,2010,0,1,4.8,Young Ages,1,-0.005300866
+Young Sudden Mmults,2010,0,1,4.9,Young Ages,1,-0.015000783
+Young Ramp4 Mmults,2000,4,1,1.5,Young Ages,1,0.233222091
+Young Ramp4 Mmults,2000,4,1,2,Young Ages,1,0.209425713
+Young Ramp4 Mmults,2000,4,1,2.5,Young Ages,1,0.153684324
+Young Ramp4 Mmults,2000,4,1,3,Young Ages,1,0.058409952
+Young Ramp4 Mmults,2000,4,1,3.5,Young Ages,1,-0.054136754
+Young Ramp4 Mmults,2000,4,1,4,Young Ages,1,-0.172347981
+Young Ramp4 Mmults,2000,4,1,4.5,Young Ages,1,-0.277002165
+Young Ramp4 Mmults,2000,4,1,5,Young Ages,1,-0.365194207
+Young Ramp4 Mmults,2005,4,1,1.5,Young Ages,1,0.220223534
+Young Ramp4 Mmults,2005,4,1,2,Young Ages,1,0.179005682
+Young Ramp4 Mmults,2005,4,1,2.5,Young Ages,1,0.10977269
+Young Ramp4 Mmults,2005,4,1,3,Young Ages,1,0.005469336
+Young Ramp4 Mmults,2005,4,1,3.5,Young Ages,1,-0.121365217
+Young Ramp4 Mmults,2005,4,1,4,Young Ages,1,-0.244491236
+Young Ramp4 Mmults,2005,4,1,4.5,Young Ages,1,-0.353948774
+Young Ramp4 Mmults,2005,4,1,5,Young Ages,1,-0.445219502
+Young Ramp4 Mmults,2010,4,1,1.5,Young Ages,1,0.211105855
+Young Ramp4 Mmults,2010,4,1,2,Young Ages,1,0.173751599
+Young Ramp4 Mmults,2010,4,1,2.5,Young Ages,1,0.130326343
+Young Ramp4 Mmults,2010,4,1,3,Young Ages,1,0.075884315
+Young Ramp4 Mmults,2010,4,1,3.5,Young Ages,1,0.006017076
+Young Ramp4 Mmults,2010,4,1,4,Young Ages,1,-0.078564231
+Young Ramp4 Mmults,2010,4,1,4.5,Young Ages,1,-0.174181065
+Young Ramp4 Mmults,2010,4,1,5,Young Ages,1,-0.270745414
+Young Ramp4 Mmults,2015,4,1,1.5,Young Ages,1,0.217239469
+Young Ramp4 Mmults,2015,4,1,2,Young Ages,1,0.19286468
+Young Ramp4 Mmults,2015,4,1,2.5,Young Ages,1,0.170258079
+Young Ramp4 Mmults,2015,4,1,3,Young Ages,1,0.149323479
+Young Ramp4 Mmults,2015,4,1,3.5,Young Ages,1,0.130884065
+Young Ramp4 Mmults,2015,4,1,4,Young Ages,1,0.114394942
+Young Ramp4 Mmults,2015,4,1,4.5,Young Ages,1,0.099267693
+Young Ramp4 Mmults,2015,4,1,5,Young Ages,1,0.085549701
+Young Ramp4 Mmults,2000,4,1,3.1,Young Ages,1,0.03697184
+Young Ramp4 Mmults,2000,4,1,3.2,Young Ages,1,0.014883583
+Young Ramp4 Mmults,2000,4,1,3.3,Young Ages,1,-0.007746503
+Young Ramp4 Mmults,2000,4,1,3.4,Young Ages,1,-0.030818326
+Young Ramp9 Mmults,2000,9,1,1.5,Young Ages,1,0.234930278
+Young Ramp9 Mmults,2000,9,1,2,Young Ages,1,0.216639671
+Young Ramp9 Mmults,2000,9,1,2.5,Young Ages,1,0.171227999
+Young Ramp9 Mmults,2000,9,1,3,Young Ages,1,0.088971793
+Young Ramp9 Mmults,2000,9,1,3.5,Young Ages,1,-0.010769365
+Young Ramp9 Mmults,2000,9,1,4,Young Ages,1,-0.122476529
+Young Ramp9 Mmults,2000,9,1,4.5,Young Ages,1,-0.224511128
+Young Ramp9 Mmults,2000,9,1,5,Young Ages,1,-0.314446904
+Young Ramp9 Mmults,2005,9,1,1.5,Young Ages,1,0.226706008
+Young Ramp9 Mmults,2005,9,1,2,Young Ages,1,0.19425401
+Young Ramp9 Mmults,2005,9,1,2.5,Young Ages,1,0.130916621
+Young Ramp9 Mmults,2005,9,1,3,Young Ages,1,0.029304073
+Young Ramp9 Mmults,2005,9,1,3.5,Young Ages,1,-0.093287729
+Young Ramp9 Mmults,2005,9,1,4,Young Ages,1,-0.21570685
+Young Ramp9 Mmults,2005,9,1,4.5,Young Ages,1,-0.326646928
+Young Ramp9 Mmults,2005,9,1,5,Young Ages,1,-0.416748289
+Young Ramp9 Mmults,2010,9,1,1.5,Young Ages,1,0.215710594
+Young Ramp9 Mmults,2010,9,1,2,Young Ages,1,0.17680677
+Young Ramp9 Mmults,2010,9,1,2.5,Young Ages,1,0.122682556
+Young Ramp9 Mmults,2010,9,1,3,Young Ages,1,0.043793541
+Young Ramp9 Mmults,2010,9,1,3.5,Young Ages,1,-0.059347248
+Young Ramp9 Mmults,2010,9,1,4,Young Ages,1,-0.176817632
+Young Ramp9 Mmults,2010,9,1,4.5,Young Ages,1,-0.290866789
+Young Ramp9 Mmults,2010,9,1,5,Young Ages,1,-0.393988475
+Young Ramp9 Mmults,2015,9,1,1.5,Young Ages,1,0.214456499
+Young Ramp9 Mmults,2015,9,1,2,Young Ages,1,0.185003376
+Young Ramp9 Mmults,2015,9,1,2.5,Young Ages,1,0.154539218
+Young Ramp9 Mmults,2015,9,1,3,Young Ages,1,0.124298881
+Young Ramp9 Mmults,2015,9,1,3.5,Young Ages,1,0.091343758
+Young Ramp9 Mmults,2015,9,1,4,Young Ages,1,0.054459187
+Young Ramp9 Mmults,2015,9,1,4.5,Young Ages,1,0.011901033
+Young Ramp9 Mmults,2015,9,1,5,Young Ages,1,-0.036512613
+Young Ramp9 Mmults,2000,9,1,3.1,Young Ages,1,0.069742844
+Young Ramp9 Mmults,2000,9,1,3.2,Young Ages,1,0.050154317
+Young Ramp9 Mmults,2000,9,1,3.3,Young Ages,1,0.030541867
+Young Ramp9 Mmults,2000,9,1,3.4,Young Ages,1,0.010183367
+Young Ramp9 Mmults,2005,9,1,3.1,Young Ages,1,0.005570539
+Young Ramp9 Mmults,2005,9,1,3.2,Young Ages,1,-0.018897864
+Young Ramp9 Mmults,2005,9,1,3.3,Young Ages,1,-0.043875538
+Young Ramp9 Mmults,2005,9,1,3.4,Young Ages,1,-0.068519245
+Young Ramp9 Mmults,2010,9,1,3.1,Young Ages,1,0.024904015
+Young Ramp9 Mmults,2010,9,1,3.2,Young Ages,1,0.005156175
+Young Ramp9 Mmults,2010,9,1,3.3,Young Ages,1,-0.015386728
+Young Ramp9 Mmults,2010,9,1,3.4,Young Ages,1,-0.036674349
+Young Ramp9 Mmults,2015,9,1,4.6,Young Ages,1,0.002712598
+Young Ramp9 Mmults,2015,9,1,4.7,Young Ages,1,-0.006731984
+Young Ramp9 Mmults,2015,9,1,4.8,Young Ages,1,-0.016415275
+Young Ramp9 Mmults,2015,9,1,4.9,Young Ages,1,-0.026341569
