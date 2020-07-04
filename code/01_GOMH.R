@@ -1,5 +1,5 @@
-# whitehake_step1.R
-# apply Rose approach to 2019 White Hake assessment and compare to rho adjustment
+# 01_GOMH.R
+# apply Rose approach to 2019 Gulf of Maine Haddock assessment and compare to rho adjustment
 
 # set working directory to source file location to begin
 
@@ -12,8 +12,8 @@ library(ASAPplots)
 library(rose)
 
 # get starting ASAP file
-myname <- "whitehake.dat"
-setwd(file.path(getwd(), "..\\workingWH"))
+myname <- "GOMH.dat"
+setwd(file.path(getwd(), "..\\workingGOMH"))
 
 # copy ASAP executables into current and working directories
 rose.dir <- find.package("rose")
@@ -36,7 +36,7 @@ file.copy(from = paste0(asap.name, "_000.rdat"), to = paste0("..\\saved\\", asap
 file.copy(from = paste0("plots\\Retro.rho.values_", asap.name, "_000.csv"), 
           to = paste0("..\\saved\\Retro.rho.values_", asap.name, "_000.csv"))
 
-# save teime series of SSB and F from each peel
+# save time series of SSB and F from each peel
 peel.df <- data.frame(Peel = integer(),
                       Year = integer(),
                       metric = character(),
@@ -55,11 +55,14 @@ write.csv(peel.df, file = paste0("..\\saved\\peeldf_", asap.name, ".csv"), row.n
 
 # runRetroMults on base case so have needed data frame to combine later
 orig.df <- runRetroMults("Base Case", myname, n.peels, 0, 2018, 1, 1, rep(1, nages), "All Ages", 1, FALSE)
-c(orig.ssbrho, orig.df$ssbrho, round(orig.ssbrho - orig.df$ssbrho, 8))
 
-# run a set of catch mults for four years
+# common values
 year.vals <- c(2000, 2005, 2010, 2015)
-mymults <- seq(1.5, 5, 0.5)
+mymults <- seq(0.1, 0.9, 0.1)
+young.ages <- c(rep(1, 4), rep(0, 5))
+old.ages <- c(rep(0, 4), rep(1, 5))
+
+# run sudden catch mults
 myscenario <- "Sudden Cmults"
 scenario1.df <- runRetroMults(myscenario, myname, n.peels, 0, year.vals, mymults, 1, rep(1, nages), "All Ages", 1, FALSE)
 
@@ -68,14 +71,12 @@ sofar.df <- rbind(orig.df, scenario1.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # dial in cmults
-scenario1b.df <- runRetroMults(myscenario, myname, n.peels, 0, 2000, seq(2.6, 2.9, 0.1), 1, rep(1, nages), "All Ages", 1, FALSE)
+scenario1b.df <- runRetroMults(myscenario, myname, n.peels, 0, 2000, seq(0.01, 0.09, 0.01), 1, rep(1, nages), "All Ages", 1, FALSE)
 
-scenario1c.df <- runRetroMults(myscenario, myname, n.peels, 0, c(2005, 2010), seq(2.1, 2.4, 0.1), 1, rep(1, nages), "All Ages", 1, FALSE)
-
-scenario1d.df <- runRetroMults(myscenario, myname, n.peels, 0, 2015, seq(3.6, 3.9, 0.1), 1, rep(1, nages), "All Ages", 1, FALSE)
+scenario1c.df <- runRetroMults(myscenario, myname, n.peels, 0, c(2005, 2010, 2015), seq(0.01, 0.09, 0.01), 1, rep(1, nages), "All Ages", 1, FALSE)
 
 # save work so far
-sofar.df <- rbind(sofar.df, scenario1b.df, scenario1c.df, scenario1d.df)
+sofar.df <- rbind(sofar.df, scenario1b.df, scenario1c.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # cmults ramp4
@@ -87,12 +88,10 @@ sofar.df <- rbind(sofar.df, scenario2.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # dial in cmults ramp4
-scenario2b.df <- runRetroMults(myscen2, myname, n.peels, 4, c(2000, 2015), seq(2.6, 2.9, 0.1), 1, rep(1, nages), "All Ages", 1, FALSE)
-
-scenario2c.df <- runRetroMults(myscen2, myname, n.peels, 4, c(2005, 2010), seq(2.1, 2.4, 0.1), 1, rep(1, nages), "All Ages", 1, FALSE)
+scenario2b.df <- runRetroMults(myscen2, myname, n.peels, 4, year.vals, seq(0.01, 0.05, 0.01), 1, rep(1, nages), "All Ages", 1, FALSE)
 
 # save work so far
-sofar.df <- rbind(sofar.df, scenario2b.df, scenario2c.df)
+sofar.df <- rbind(sofar.df, scenario2b.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # cmults ramp9
@@ -104,14 +103,10 @@ sofar.df <- rbind(sofar.df, scenario3.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # dial in cmults ramp9
-scenario3b.df <- runRetroMults(myscen3, myname, n.peels, 9, 2000, seq(3.6, 3.9, 0.1), 1, rep(1, nages), "All Ages", 1, FALSE)
-
-scenario3c.df <- runRetroMults(myscen3, myname, n.peels, 9, 2005, seq(2.6, 2.9, 0.1), 1, rep(1, nages), "All Ages", 1, FALSE)
-
-scenario3d.df <- runRetroMults(myscen3, myname, n.peels, 9, c(2010, 2015), seq(2.1, 2.4, 0.1), 1, rep(1, nages), "All Ages", 1, FALSE)
+scenario3b.df <- runRetroMults(myscen3, myname, n.peels, 9, year.vals, seq(0.01, 0.05, 0.01), 1, rep(1, nages), "All Ages", 1, FALSE)
 
 # save work so far
-sofar.df <- rbind(sofar.df, scenario3b.df, scenario3c.df, scenario3d.df)
+sofar.df <- rbind(sofar.df, scenario3b.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # sudden Mmults
@@ -122,13 +117,16 @@ scenario4.df <- runRetroMults(myscen4, myname, n.peels, 0, year.vals, 1, mymults
 sofar.df <- rbind(sofar.df, scenario4.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
-# dial in sudden Mmults
-scenario4b.df <- runRetroMults(myscen4, myname, n.peels, 0, c(2000, 2005, 2010), 1, seq(1.6, 1.9, 0.1), rep(1, nages), "All Ages", 1, FALSE)
+# dial in sudden Mmults 
+# change year 2005 nailed it with mult=0.3
+scenario4b.df <- runRetroMults(myscen4, myname, n.peels, 0, 2000, 1, seq(0.15, 0.19, 0.01), rep(1, nages), "All Ages", 1, FALSE)
 
-scenario4c.df <- runRetroMults(myscen4, myname, n.peels, 0, 2015, 1, seq(2.6, 2.9, 0.1), rep(1, nages), "All Ages", 1, FALSE)
+scenario4c.df <- runRetroMults(myscen4, myname, n.peels, 0, 2010, 1, seq(0.25, 0.29, 0.01), rep(1, nages), "All Ages", 1, FALSE)
+
+scenario4d.df <- runRetroMults(myscen4, myname, n.peels, 0, 2015, 1, seq(0.01, 0.09, 0.02), rep(1, nages), "All Ages", 1, FALSE)
 
 # save work so far
-sofar.df <- rbind(sofar.df, scenario4b.df, scenario4c.df)
+sofar.df <- rbind(sofar.df, scenario4b.df, scenario4c.df, scenario4d.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = 1, FALSE)
 
 # Mmult ramp4
@@ -140,12 +138,16 @@ sofar.df <- rbind(sofar.df, scenario5.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # dial in Mmults ramp4
-scenario5b.df <- runRetroMults(myscen5, myname, n.peels, 4, c(2000, 2005, 2010), 1, seq(1.6, 1.9, 0.1), rep(1, nages), "All Ages", 1, FALSE)
+scenario5b.df <- runRetroMults(myscen5, myname, n.peels, 4, 2000, 1, seq(0.12, 0.16, 0.01), rep(1, nages), "All Ages", 1, FALSE)
 
-# note 2015 run nailed it at mmult=2
+scenario5c.df <- runRetroMults(myscen5, myname, n.peels, 4, 2005, 1, seq(0.23, 0.28, 0.01), rep(1, nages), "All Ages", 1, FALSE)
+
+scenario5d.df <- runRetroMults(myscen5, myname, n.peels, 4, 2010, 1, seq(0.31, 0.33, 0.01), rep(1, nages), "All Ages", 1, FALSE)
+
+scenario5e.df <- runRetroMults(myscen5, myname, n.peels, 4, 2015, 1, seq(0.05, 0.09, 0.01), rep(1, nages), "All Ages", 1, FALSE)
 
 # save work so far
-sofar.df <- rbind(sofar.df, scenario5b.df)
+sofar.df <- rbind(sofar.df, scenario5b.df, scenario5c.df, scenario5d.df, scenario5e.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # Mmult ramp9
@@ -157,56 +159,60 @@ sofar.df <- rbind(sofar.df, scenario6.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # dial in Mmults ramp9
-scenario6b.df <- runRetroMults(myscen6, myname, n.peels, 9, c(2000, 2005, 2010, 2015), 1, seq(1.6, 1.9, 0.1), rep(1, nages), "All Ages", 1, FALSE)
+# change year 2005 nailed it with mult=0.2
+
+scenario6b.df <- runRetroMults(myscen6, myname, n.peels, 9, 2000, 1, seq(0.05, 0.09, 0.01), rep(1, nages), "All Ages", 1, FALSE)
+
+scenario6c.df <- runRetroMults(myscen6, myname, n.peels, 9, 2010, 1, seq(0.26, 0.29, 0.01), rep(1, nages), "All Ages", 1, FALSE)
+
+scenario6d.df <- runRetroMults(myscen6, myname, n.peels, 9, 2015, 1, seq(0.15, 0.19, 0.01), rep(1, nages), "All Ages", 1, FALSE)
 
 # save work so far
-sofar.df <- rbind(sofar.df, scenario6b.df)
+sofar.df <- rbind(sofar.df, scenario6b.df, scenario6c.df, scenario6d.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
-# Old Sudden Mmult (ages 6-9+)
+# Old Sudden Mmult (ages 5-9+)
 myscen7 <- "Old Sudden Mmults"
-scenario7.df <- runRetroMults(myscen7, myname, n.peels, 0, year.vals, 1, mymults, c(0,0,0,0,0,1,1,1,1), "Old Ages", 1, FALSE)
+scenario7.df <- runRetroMults(myscen7, myname, n.peels, 0, year.vals, 1, mymults, old.ages, "Old", 1, FALSE)
 
 # save work so far
 sofar.df <- rbind(sofar.df, scenario7.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # dial in Old Sudden Mmults
-scenario7b.df <- runRetroMults(myscen7, myname, n.peels, 0, c(2000, 2005, 2010), 1, seq(2.1, 2.4, 0.1), c(0,0,0,0,0,1,1,1,1), "Old Ages", 1, FALSE)
+scenario7b.df <- runRetroMults(myscen7, myname, n.peels, 0, 2000, 1, seq(0.01, 0.09, 0.02), old.ages, "Old", 1, FALSE)
 
-# note 2015 nails it with mmult=4.0
+scenario7c.df <- runRetroMults(myscen7, myname, n.peels, 0, c(2005, 2010, 2015), 1, seq(0.01, 0.09, 0.02), old.ages, "Old", 1, FALSE)
 
 # save work so far
-sofar.df <- rbind(sofar.df, scenario7b.df)
+sofar.df <- rbind(sofar.df, scenario7b.df, scenario7c.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # Old Ramp4 Mmults
 myscen8 <- "Old Ramp4 Mmults"
-scenario8.df <- runRetroMults(myscen8, myname, n.peels, 4, year.vals, 1, mymults, c(0,0,0,0,0,1,1,1,1), "Old Ages", 1, FALSE)
+scenario8.df <- runRetroMults(myscen8, myname, n.peels, 4, year.vals, 1, mymults, old.ages, "Old", 1, FALSE)
 
 # save work so far
 sofar.df <- rbind(sofar.df, scenario8.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # dial in Old Ramp4 Mmults
-scenario8b.df <- runRetroMults(myscen8, myname, n.peels, 4, c(2000, 2005, 2010), 1, seq(2.1, 2.4, 0.1), c(0,0,0,0,0,1,1,1,1), "Old Ages", 1, FALSE)
-
-scenario8c.df <- runRetroMults(myscen8, myname, n.peels, 4, 2015, 1, seq(2.6, 2.9, 0.1), c(0,0,0,0,0,1,1,1,1), "Old Ages", 1, FALSE)
+scenario8b.df <- runRetroMults(myscen8, myname, n.peels, 4, year.vals, 1, seq(0.01, 0.09, 0.01), old.ages, "Old", 1, FALSE)
 
 # save work so far
-sofar.df <- rbind(sofar.df, scenario8b.df, scenario8c.df)
+sofar.df <- rbind(sofar.df, scenario8b.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # Old Ramp9 Mmults
 myscen9 <- "Old Ramp9 Mmults"
-scenario9.df <- runRetroMults(myscen9, myname, n.peels, 9, year.vals, 1, mymults, c(0,0,0,0,0,1,1,1,1), "Old Ages", 1, FALSE)
+scenario9.df <- runRetroMults(myscen9, myname, n.peels, 9, year.vals, 1, mymults, old.ages, "Old", 1, FALSE)
 
 # save work so far
 sofar.df <- rbind(sofar.df, scenario9.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # dial in Old Ramp9 Mmults
-scenario9b.df <- runRetroMults(myscen9, myname, n.peels, 9, year.vals, 1, seq(2.1, 2.4, 0.1), c(0,0,0,0,0,1,1,1,1), "Old Ages", 1, FALSE)
+scenario9b.df <- runRetroMults(myscen9, myname, n.peels, 9, year.vals, 1, seq(0.01, 0.09, 0.02), old.ages, "Old", 1, FALSE)
 
 # save work so far
 sofar.df <- rbind(sofar.df, scenario9b.df)
@@ -214,36 +220,29 @@ write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # Young Sudden Mmults (ages 1-4)
 myscen10 <- "Young Sudden Mmults"
-scenario10.df <- runRetroMults(myscen10, myname, n.peels, 0, year.vals, 1, mymults, c(1,1,1,1,0,0,0,0,0), "Young Ages", 1, FALSE)
+scenario10.df <- runRetroMults(myscen10, myname, n.peels, 0, year.vals, 1, mymults, young.ages, "Young", 1, FALSE)
 
 # save work so far
 sofar.df <- rbind(sofar.df, scenario10.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # dial in Young Sudden Mmults
-scenario10b.df <- runRetroMults(myscen10, myname, n.peels, 0, c(2000, 2005), 1, seq(3.1, 3.5, 0.1), c(1,1,1,1,0,0,0,0,0), "Young Ages", 1, FALSE)
-
-scenario10c.df <- runRetroMults(myscen10, myname, n.peels, 0, 2010, 1, seq(4.6, 4.9, 0.1), c(1,1,1,1,0,0,0,0,0), "Young Ages", 1, FALSE)
-
-# note 2015 would require mmult > 5, so didn't carry this case through to higher mmults
+scenario10b.df <- runRetroMults(myscen10, myname, n.peels, 0, year.vals, 1, seq(0.01, 0.09, 0.02), young.ages, "Young", 1, FALSE)
 
 # save work so far
-sofar.df <- rbind(sofar.df, scenario10b.df, scenario10c.df)
+sofar.df <- rbind(sofar.df, scenario10b.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # Young Ramp4 Mmults (ages 1-4)
 myscen11 <- "Young Ramp4 Mmults"
-scenario11.df <- runRetroMults(myscen11, myname, n.peels, 4, year.vals, 1, mymults, c(1,1,1,1,0,0,0,0,0), "Young Ages", 1, FALSE)
+scenario11.df <- runRetroMults(myscen11, myname, n.peels, 4, year.vals, 1, mymults, young.ages, "Young", 1, FALSE)
 
 # save work so far
 sofar.df <- rbind(sofar.df, scenario11.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # dial in Young Ramp4 Mmults
-scenario11b.df <- runRetroMults(myscen11, myname, n.peels, 4, 2000, 1, seq(3.1, 3.4, 0.1), c(1,1,1,1,0,0,0,0,0), "Young Ages", 1, FALSE)
-
-# note 2005 and 2010 were spot on with mmults of 3.0 and 3.5 respectively
-# note 2015 would require mmult > 5, so didn't carry this case through to higher mmults
+scenario11b.df <- runRetroMults(myscen11, myname, n.peels, 4, year.vals, 1, seq(0.01, 0.09, 0.02), young.ages, "Young", 1, FALSE)
 
 # save work so far
 sofar.df <- rbind(sofar.df, scenario11b.df)
@@ -251,23 +250,21 @@ write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # Young Ramp9 Mmults (ages 1-4)
 myscen12 <- "Young Ramp9 Mmults"
-scenario12.df <- runRetroMults(myscen12, myname, n.peels, 9, year.vals, 1, mymults, c(1,1,1,1,0,0,0,0,0), "Young Ages", 1, FALSE)
+scenario12.df <- runRetroMults(myscen12, myname, n.peels, 9, year.vals, 1, mymults, young.ages, "Young", 1, FALSE)
 
 # save work so far
 sofar.df <- rbind(sofar.df, scenario12.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # dial in Young Ramp9 Mmults
-scenario12b.df <- runRetroMults(myscen12, myname, n.peels, 9, c(2000, 2005, 2010), 1, seq(3.1, 3.4, 0.1), c(1,1,1,1,0,0,0,0,0), "Young Ages", 1, FALSE)
-
-scenario12c.df <- runRetroMults(myscen12, myname, n.peels, 9, 2015, 1, seq(4.6, 4.9, 0.1), c(1,1,1,1,0,0,0,0,0), "Young Ages", 1, FALSE)
+scenario12b.df <- runRetroMults(myscen12, myname, n.peels, 9, year.vals, 1, seq(0.01, 0.09, 0.02), young.ages, "Young", 1, FALSE)
 
 # save work so far
-sofar.df <- rbind(sofar.df, scenario12b.df, scenario12c.df)
+sofar.df <- rbind(sofar.df, scenario12b.df)
 write.csv(sofar.df, file = "sofar.csv", row.names = FALSE)
 
 # copy results file so not lost
-file.copy(from = "sofar.csv", to = "..\\saved\\ssbrhodatabaseWH.csv")
+file.copy(from = "sofar.csv", to = "..\\saved\\ssbrhodatabaseGOMH.csv")
 
 ####
 # # try index multipliers - didn't work
