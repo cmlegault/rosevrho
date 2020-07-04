@@ -4,7 +4,7 @@
 structure(list(
 
 info = structure(list(
-date = "Wednesday, 15 Jan 2020 at 14:54:42",
+date = "Friday, 29 May 2020 at 09:56:28",
 program = "ASAP3"),
 .Names = c("date", "program"))
 

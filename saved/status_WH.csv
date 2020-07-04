@@ -1,0 +1,148 @@
+"Scenario","Case","RampLab","ChangeYear","Metric","SSB","F"
+"orig","orig","None","None","Terminal",20756.96,0.1065155
+"orig.rhoadj","orig.rhoadj","None","None","Terminal",16692.0186431395,0.13110784021675
+"orig","orig","None","None","Target",27329.8204244296,0.199169578771464
+"orig.rhoadj","orig.rhoadj","None","None","Target",27329.8204244296,0.199169578771464
+"orig","orig","None","None","Ratio",0.759498587171313,0.534798038219584
+"orig.rhoadj","orig.rhoadj","None","None","Ratio",0.610762104686895,0.658272418034224
+"Cmult Sudden 2000","Cmult","Sudden","2000","Terminal",15710.39,0.4207471
+"Cmult Sudden 2005","Cmult","Sudden","2005","Terminal",12254.85,0.4684721
+"Cmult Sudden 2010","Cmult","Sudden","2010","Terminal",11666.8,0.4875117
+"Cmult Sudden 2015","Cmult","Sudden","2015","Terminal",12814.65,0.7753831
+"Cmult Ramp4 2000","Cmult","Ramp4","2000","Terminal",17747.48,0.4148641
+"Cmult Ramp4 2005","Cmult","Ramp4","2005","Terminal",13348.23,0.4460276
+"Cmult Ramp4 2010","Cmult","Ramp4","2010","Terminal",11673.78,0.4914554
+"Cmult Ramp4 2015","Cmult","Ramp4","2015","Terminal",11713.03,0.6012265
+"Cmult Ramp9 2000","Cmult","Ramp9","2000","Terminal",23715.85,0.3912581
+"Cmult Ramp9 2005","Cmult","Ramp9","2005","Terminal",15182.95,0.4413624
+"Cmult Ramp9 2010","Cmult","Ramp9","2010","Terminal",12440.02,0.4597411
+"Cmult Ramp9 2015","Cmult","Ramp9","2015","Terminal",11483.19,0.5485214
+"Mmult All Ages Sudden 2000","Mmult All Ages","Sudden","2000","Terminal",11076.98,0.2433674
+"Mmult All Ages Sudden 2005","Mmult All Ages","Sudden","2005","Terminal",11419.63,0.223693
+"Mmult All Ages Sudden 2010","Mmult All Ages","Sudden","2010","Terminal",11293.12,0.2209051
+"Mmult All Ages Sudden 2015","Mmult All Ages","Sudden","2015","Terminal",10304.27,0.2448314
+"Mmult All Ages Ramp4 2000","Mmult All Ages","Ramp4","2000","Terminal",11568.45,0.2325808
+"Mmult All Ages Ramp4 2005","Mmult All Ages","Ramp4","2005","Terminal",11561.19,0.2231701
+"Mmult All Ages Ramp4 2010","Mmult All Ages","Ramp4","2010","Terminal",11765.18,0.211871
+"Mmult All Ages Ramp4 2015","Mmult All Ages","Ramp4","2015","Terminal",11017.52,0.2258055
+"Mmult All Ages Ramp9 2000","Mmult All Ages","Ramp9","2000","Terminal",11387.85,0.2436902
+"Mmult All Ages Ramp9 2005","Mmult All Ages","Ramp9","2005","Terminal",11075.13,0.2418487
+"Mmult All Ages Ramp9 2010","Mmult All Ages","Ramp9","2010","Terminal",11656.57,0.2174791
+"Mmult All Ages Ramp9 2015","Mmult All Ages","Ramp9","2015","Terminal",11064.04,0.2272468
+"Mmult Old Sudden 2000","Mmult Old","Sudden","2000","Terminal",13025.88,0.1995211
+"Mmult Old Sudden 2005","Mmult Old","Sudden","2005","Terminal",12556.36,0.2040097
+"Mmult Old Sudden 2010","Mmult Old","Sudden","2010","Terminal",12372.89,0.2024185
+"Mmult Old Sudden 2015","Mmult Old","Sudden","2015","Terminal",10082.82,0.2602983
+"Mmult Old Ramp4 2000","Mmult Old","Ramp4","2000","Terminal",13413.65,0.1935586
+"Mmult Old Ramp4 2005","Mmult Old","Ramp4","2005","Terminal",12899.77,0.1988977
+"Mmult Old Ramp4 2010","Mmult Old","Ramp4","2010","Terminal",12366.39,0.2046425
+"Mmult Old Ramp4 2015","Mmult Old","Ramp4","2015","Terminal",11526.11,0.2200983
+"Mmult Old Ramp9 2000","Mmult Old","Ramp9","2000","Terminal",13816.47,0.1872831
+"Mmult Old Ramp9 2005","Mmult Old","Ramp9","2005","Terminal",13327.11,0.1921778
+"Mmult Old Ramp9 2010","Mmult Old","Ramp9","2010","Terminal",12649.33,0.2012726
+"Mmult Old Ramp9 2015","Mmult Old","Ramp9","2015","Terminal",12034.39,0.2104389
+"Mmult Young Sudden 2000","Mmult Young","Sudden","2000","Terminal",7893.376,0.358783
+"Mmult Young Sudden 2005","Mmult Young","Sudden","2005","Terminal",8462.794,0.3066063
+"Mmult Young Sudden 2010","Mmult Young","Sudden","2010","Terminal",6960.566,0.3614393
+"Mmult Young Ramp4 2000","Mmult Young","Ramp4","2000","Terminal",7786.856,0.3751387
+"Mmult Young Ramp4 2005","Mmult Young","Ramp4","2005","Terminal",8159.066,0.3286108
+"Mmult Young Ramp4 2010","Mmult Young","Ramp4","2010","Terminal",8137.48,0.3112895
+"Mmult Young Ramp9 2000","Mmult Young","Ramp9","2000","Terminal",8148.962,0.3599553
+"Mmult Young Ramp9 2005","Mmult Young","Ramp9","2005","Terminal",8043.651,0.3452709
+"Mmult Young Ramp9 2010","Mmult Young","Ramp9","2010","Terminal",8142.708,0.3207045
+"Mmult Young Ramp9 2015","Mmult Young","Ramp9","2015","Terminal",7907.427,0.3122307
+"Cmult Sudden 2000","Cmult","Sudden","2000","Target",34011.611774796,0.217863481057097
+"Cmult Sudden 2005","Cmult","Sudden","2005","Target",29962.457503967,0.221887415329342
+"Cmult Sudden 2010","Cmult","Sudden","2010","Target",28194.411135961,0.218627807187394
+"Cmult Sudden 2015","Cmult","Sudden","2015","Target",27755.9462823974,0.210780911588207
+"Cmult Ramp4 2000","Cmult","Ramp4","2000","Target",36612.6570627119,0.218136996527467
+"Cmult Ramp4 2005","Cmult","Ramp4","2005","Target",30889.2177802133,0.221050376468796
+"Cmult Ramp4 2010","Cmult","Ramp4","2010","Target",29032.4250757347,0.220427399456663
+"Cmult Ramp4 2015","Cmult","Ramp4","2015","Target",27707.2236868898,0.216316922554482
+"Cmult Ramp9 2000","Cmult","Ramp9","2000","Target",46837.7878033708,0.217001476523141
+"Cmult Ramp9 2005","Cmult","Ramp9","2005","Target",33821.2065310714,0.220330557743955
+"Cmult Ramp9 2010","Cmult","Ramp9","2010","Target",30036.7563285899,0.22134630536604
+"Cmult Ramp9 2015","Cmult","Ramp9","2015","Target",28406.9820493485,0.21964178354007
+"Mmult All Ages Sudden 2000","Mmult All Ages","Sudden","2000","Target",31670.9321286604,0.234075995301154
+"Mmult All Ages Sudden 2005","Mmult All Ages","Sudden","2005","Target",29887.3978507874,0.223480498234543
+"Mmult All Ages Sudden 2010","Mmult All Ages","Sudden","2010","Target",28151.7787951127,0.216070431610796
+"Mmult All Ages Sudden 2015","Mmult All Ages","Sudden","2015","Target",28662.382282178,0.208610610465751
+"Mmult All Ages Ramp4 2000","Mmult All Ages","Ramp4","2000","Target",32774.6450573241,0.234519908979399
+"Mmult All Ages Ramp4 2005","Mmult All Ages","Ramp4","2005","Target",30431.8509898757,0.22627102030862
+"Mmult All Ages Ramp4 2010","Mmult All Ages","Ramp4","2010","Target",28546.627770476,0.217909624245609
+"Mmult All Ages Ramp4 2015","Mmult All Ages","Ramp4","2015","Target",27901.1626659268,0.211862958962319
+"Mmult All Ages Ramp9 2000","Mmult All Ages","Ramp9","2000","Target",34111.3675894389,0.239215431603954
+"Mmult All Ages Ramp9 2005","Mmult All Ages","Ramp9","2005","Target",31522.5387243819,0.232593178235062
+"Mmult All Ages Ramp9 2010","Mmult All Ages","Ramp9","2010","Target",29854.2320949145,0.222075171354613
+"Mmult All Ages Ramp9 2015","Mmult All Ages","Ramp9","2015","Target",28350.8140418667,0.216712844896056
+"Mmult Old Sudden 2000","Mmult Old","Sudden","2000","Target",29886.6114990781,0.22180304366203
+"Mmult Old Sudden 2005","Mmult Old","Sudden","2005","Target",29093.0089600738,0.219108194024702
+"Mmult Old Sudden 2010","Mmult Old","Sudden","2010","Target",28395.0148568327,0.213630387077518
+"Mmult Old Sudden 2015","Mmult Old","Sudden","2015","Target",27867.5460106341,0.210299975859836
+"Mmult Old Ramp4 2000","Mmult Old","Ramp4","2000","Target",30212.998935674,0.222029134358546
+"Mmult Old Ramp4 2005","Mmult Old","Ramp4","2005","Target",29369.8898613624,0.219842520875161
+"Mmult Old Ramp4 2010","Mmult Old","Ramp4","2010","Target",28771.8577005647,0.215998475821279
+"Mmult Old Ramp4 2015","Mmult Old","Ramp4","2015","Target",28102.2567982305,0.211782928844331
+"Mmult Old Ramp9 2000","Mmult Old","Ramp9","2000","Target",30665.3441689093,0.22167482667492
+"Mmult Old Ramp9 2005","Mmult Old","Ramp9","2005","Target",29700.0699407925,0.219825509867527
+"Mmult Old Ramp9 2010","Mmult Old","Ramp9","2010","Target",29073.1657698155,0.217716592812821
+"Mmult Old Ramp9 2015","Mmult Old","Ramp9","2015","Target",28499.15048093,0.214143269191217
+"Mmult Young Sudden 2000","Mmult Young","Sudden","2000","Target",41327.3983003806,0.245179098122843
+"Mmult Young Sudden 2005","Mmult Young","Sudden","2005","Target",35786.5603961622,0.230032455176852
+"Mmult Young Sudden 2010","Mmult Young","Sudden","2010","Target",36676.3342925863,0.221755199123396
+"Mmult Young Ramp4 2000","Mmult Young","Ramp4","2000","Target",47471.4152750023,0.249103828263763
+"Mmult Young Ramp4 2005","Mmult Young","Ramp4","2005","Target",35813.6893045738,0.235970347797265
+"Mmult Young Ramp4 2010","Mmult Young","Ramp4","2010","Target",38653.0435128554,0.224939916771016
+"Mmult Young Ramp9 2000","Mmult Young","Ramp9","2000","Target",55768.0838703547,0.249929340445367
+"Mmult Young Ramp9 2005","Mmult Young","Ramp9","2005","Target",39813.1082786397,0.242047460170514
+"Mmult Young Ramp9 2010","Mmult Young","Ramp9","2010","Target",37232.508825879,0.231200594756269
+"Mmult Young Ramp9 2015","Mmult Young","Ramp9","2015","Target",36670.1415259795,0.221240408204511
+"Cmult Sudden 2000","Cmult","Sudden","2000","Ratio",0.461912540458963,1.93124197758381
+"Cmult Sudden 2005","Cmult","Sudden","2005","Ratio",0.409006837919668,2.1113054082164
+"Cmult Sudden 2010","Cmult","Sudden","2010","Ratio",0.413798321367294,2.22987051039731
+"Cmult Sudden 2015","Cmult","Sudden","2015","Ratio",0.461690257994445,3.67862105803409
+"Cmult Ramp4 2000","Cmult","Ramp4","2000","Ratio",0.484736192994714,1.90185116052867
+"Cmult Ramp4 2005","Cmult","Ramp4","2005","Ratio",0.432132341290639,2.01776448936725
+"Cmult Ramp4 2010","Cmult","Ramp4","2010","Ratio",0.402094553574064,2.229556766588
+"Cmult Ramp4 2015","Cmult","Ramp4","2015","Ratio",0.422742824483791,2.77937802045318
+"Cmult Ramp9 2000","Cmult","Ramp9","2000","Ratio",0.506340096581018,1.8030204506847
+"Cmult Ramp9 2005","Cmult","Ramp9","2005","Ratio",0.448918047499326,2.00318287449218
+"Cmult Ramp9 2010","Cmult","Ramp9","2010","Ratio",0.414159900087454,2.07702179279535
+"Cmult Ramp9 2015","Cmult","Ramp9","2015","Ratio",0.404238295361734,2.49734541014565
+"Mmult All Ages Sudden 2000","Mmult All Ages","Sudden","2000","Ratio",0.349752257211779,1.03969396642698
+"Mmult All Ages Sudden 2005","Mmult All Ages","Sudden","2005","Ratio",0.38208846608234,1.00095087386656
+"Mmult All Ages Sudden 2010","Mmult All Ages","Sudden","2010","Ratio",0.401151205477664,1.02237542801744
+"Mmult All Ages Sudden 2015","Mmult All Ages","Sudden","2015","Ratio",0.35950500898898,1.17362870207503
+"Mmult All Ages Ramp4 2000","Mmult All Ages","Ramp4","2000","Ratio",0.352969497602989,0.991731580538994
+"Mmult All Ages Ramp4 2005","Mmult All Ages","Ramp4","2005","Ratio",0.379904265561968,0.986295548124586
+"Mmult All Ages Ramp4 2010","Mmult All Ages","Ramp4","2010","Ratio",0.412139048247513,0.972288400448058
+"Mmult All Ages Ramp4 2015","Mmult All Ages","Ramp4","2015","Ratio",0.39487673441848,1.06580924341834
+"Mmult All Ages Ramp9 2000","Mmult All Ages","Ramp9","2000","Ratio",0.333843255335378,1.0187060189472
+"Mmult All Ages Ramp9 2005","Mmult All Ages","Ramp9","2005","Ratio",0.351340039482088,1.03979274815869
+"Mmult All Ages Ramp9 2010","Mmult All Ages","Ramp9","2010","Ratio",0.390449500189477,0.979303983752087
+"Mmult All Ages Ramp9 2015","Mmult All Ages","Ramp9","2015","Ratio",0.390254755424705,1.04860789451127
+"Mmult Old Sudden 2000","Mmult Old","Sudden","2000","Ratio",0.435843320692337,0.899541758786764
+"Mmult Old Sudden 2005","Mmult Old","Sudden","2005","Ratio",0.431593721269323,0.931091148407713
+"Mmult Old Sudden 2010","Mmult Old","Sudden","2010","Ratio",0.43574162797181,0.947517358223717
+"Mmult Old Sudden 2015","Mmult Old","Sudden","2015","Ratio",0.361812267077713,1.23774764564637
+"Mmult Old Ramp4 2000","Mmult Old","Ramp4","2000","Ratio",0.443969498974887,0.871771177954646
+"Mmult Old Ramp4 2005","Mmult Old","Ramp4","2005","Ratio",0.439217513613162,0.904728071749801
+"Mmult Old Ramp4 2010","Mmult Old","Ramp4","2010","Ratio",0.429808534739044,0.947425666879821
+"Mmult Old Ramp4 2015","Mmult Old","Ramp4","2015","Ratio",0.410148910201609,1.03926365170717
+"Mmult Old Ramp9 2000","Mmult Old","Ramp9","2000","Ratio",0.450556495433308,0.844855064552032
+"Mmult Old Ramp9 2005","Mmult Old","Ramp9","2005","Ratio",0.448723185722047,0.874228837753235
+"Mmult Old Ramp9 2010","Mmult Old","Ramp9","2010","Ratio",0.435086089356421,0.924470649662616
+"Mmult Old Ramp9 2015","Mmult Old","Ramp9","2015","Ratio",0.422271885193656,0.98270144466736
+"Mmult Young Sudden 2000","Mmult Young","Sudden","2000","Ratio",0.190996199243621,1.46335068016376
+"Mmult Young Sudden 2005","Mmult Young","Sudden","2005","Ratio",0.236479670197853,1.33288278718878
+"Mmult Young Sudden 2010","Mmult Young","Sudden","2010","Ratio",0.189783579364064,1.62990225901706
+"Mmult Young Ramp4 2000","Mmult Young","Ramp4","2000","Ratio",0.164032522622102,1.5059531706706
+"Mmult Young Ramp4 2005","Mmult Young","Ramp4","2005","Ratio",0.227819757149621,1.39259361639085
+"Mmult Young Ramp4 2010","Mmult Young","Ramp4","2010","Ratio",0.210526242190828,1.38387843504399
+"Mmult Young Ramp9 2000","Mmult Young","Ramp9","2000","Ratio",0.146122323638446,1.44022826355069
+"Mmult Young Ramp9 2005","Mmult Young","Ramp9","2005","Ratio",0.202035242857829,1.42645950408555
+"Mmult Young Ramp9 2010","Mmult Young","Ramp9","2010","Ratio",0.218698880542272,1.38712662196257
+"Mmult Young Ramp9 2015","Mmult Young","Ramp9","2015","Ratio",0.215636664352601,1.41127338596925
+"Rose","Rose","Many","Many","Ratio",0.367542356000892,1.42126816320883
+"Rose","Rose","Many","Many","Target",32608.3393819849,0.223175274248744
+"Rose","Rose","Many","Many","Terminal",11622.9392608696,0.316471865217391
