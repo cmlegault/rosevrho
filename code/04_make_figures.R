@@ -329,10 +329,17 @@ for (i in 1:3){
 }
 
 # catch plot -----------------------------------------------------
-plot_catch <- function(mystock, myext){
+plot_catch <- function(mystock, myext, is.small=FALSE){
 
   mycatch <- read.csv(paste0("..\\saved\\catch_advice_", mystock, ".csv")) %>%
     transform(Scenario = factor(Scenario, levels = myscenorder))
+  
+  if (is.small == TRUE){
+    mycatch <- mycatch %>%
+      filter(Scenario %in% c("orig", "orig.NAArhoadj", "orig.SSBrhoadj", "Rose"))
+  }
+  
+  smlab <- ifelse(is.small == TRUE, "sm", "")
   
   catch_plot <- ggplot(mycatch, aes(x=Catch, y=Scenario)) +
     geom_point() +
@@ -342,7 +349,7 @@ plot_catch <- function(mystock, myext){
     theme_bw() +
     theme(legend.position = "none")
   print(catch_plot)
-  ggsave(filename = paste0("..\\figs\\catch_advice_", mystock, ".", myext), catch_plot, dpi = 500)
+  ggsave(filename = paste0("..\\figs\\catch_advice_", mystock, smlab, ".", myext), catch_plot, dpi = 500)
   return(catch_plot)
 }
 
@@ -355,6 +362,15 @@ catch_plot_all4 <- plot_grid(catch_plot_GBYT, catch_plot_GOMH, catch_plot_WH, ca
 print(catch_plot_all4)
 ggsave(filename = paste0("..\\figs\\catch_advice_all4.", myext), catch_plot_all4, width = 10.5, height = 12, units = "in", dpi = 500)
 
+# now make reduced catch plot showing just orig, 2 Rho, and Rose results
+catch_plot_GBYTsm <- plot_catch("GBYT", myext, is.small=TRUE)
+catch_plot_GOMHsm <- plot_catch("GOMH", myext, is.small=TRUE)
+catch_plot_WHsm <- plot_catch("WH", myext, is.small=TRUE)
+catch_plot_Witchsm <- plot_catch("Witch", myext, is.small=TRUE)
+
+catch_plot_all4sm <- plot_grid(catch_plot_GBYTsm, catch_plot_GOMHsm, catch_plot_WHsm, catch_plot_Witchsm, labels = "AUTO")
+print(catch_plot_all4sm)
+ggsave(filename = paste0("..\\figs\\catch_advice_all4sm.", myext), catch_plot_all4sm, width = 6, height = 4, units = "in", dpi = 500)
 
 # compare expanded biomass plots ---------------------------------
 
